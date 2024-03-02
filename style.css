@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #337eff;
+   font-family: "Unilever Shilling Medium";
+}
+header{
+    width: 100%;
+    height: 144px;
+    background-color: aquamarine;
+    display: flex;
+}
+.head-logo{
+    width: 309px;
+    height: 144px;
+    background-color: #1f36c7;
+}
+.head-functions{
+    width: 1227px;
+    height: 144px;
+    background-color: #001f82;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.head-function-onebox{
+    width: 650px;
+    height: 65px;
+    background-color: #001f82;
+    padding: 28px 28px 0 20px ;
+}
+.head-onebox-inner{
+    width: 602px;
+    height: 37px;
+    display: flex;
+    box-sizing:border-box ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.head-onebox-inner-fun1{
+    font-size: 12px;
+    color: #fff;
+    font-weight:500;
+    cursor: pointer;
+}
+.head-onebox-inner-fun1:hover{
+
+}
+.head-onebox-inner-fun1 i{
+    padding: 0 10px;
+    
+
+}
+.head-onebox-inner-fun2{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.head-onebox-inner-fun2 i{
+    padding: 0 5px 5px 1px;
+}
+.head-onebox-inner-fun2 p{
+    font-size: 12px ;
+    padding-right: 25px;
+}
+.head-onebox-inner-fun2 a{
+    font-size: 11px;
+    font-weight: 500;
+    align-self: baseline;
+    text-decoration-line: underline;
+    text-decoration-color: #77ddf5;
+    cursor: pointer;
+}
+.head-onebox-inner-fun2 a:hover{
+    text-decoration-line: none;
+}
+.head-onebox-inner-fun3{
+    width: 125px;
+    height: 100%;
+    display: flex;
+}
+.head-onebox-inner-fun3 button{
+    outline: none;
+    border: none;
+    background-color: #77ddf5;
+    color: #7705bc;
+    font-family: "Unilever Shilling";
+    font-weight: bold;
+    font-size: 14px;
+    flex: 1;
+    cursor: pointer;
+}
+.head-onebox-inner-fun3 button:hover{
+    background-color:#ffec9a ;
+}
+.head-function-twobox{
+    width: 925px;
+    height: 68px;
+    background-color: #001f82;
+    display:flex;
+    padding-top: 13px;
+    justify-content: space-evenly;
+}
+.head-function-twobox a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding: 0 8px;
+}
+.head-function-twobox i{
+    color: #77ddf5;
+    padding-left: 10px;
+}
+.head-function-twobox a:after{
+    content:"";
+    position: absolute;
+    background-color: #005eff;
+    width: 0;
+    height:4px;
+    left: 0;
+    bottom: 8px;
+    transition: 0.3s;
+}
+.head-function-twobox a:hover:after{
+    width: 100%;
+}
+.highlight-image{
+    width: 100%;
+    height: 391.9px;
+    display: flex;
+}
+.highlight-image img{
+    flex: 1;
+}
+.highlight-search-bar{
+    width: 100%;
+    height: 176.8px;
+    background-color: #001f82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-search-container form{
+    width: 1391.2px;
+    height: 48px;
+    padding-left: 186px;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.inner-search-container form label{
+    color: #fff;
+    font-family:"Unilever Shilling";
+    font-size: 30px;
+    font-weight: 900;
+   
+}
+.inner-search-container form input{
+    width: 348px;
+    height: 48px;
+    outline: none;
+    border-style: solid;
+    border-width: thin;
+    border-color:#77ddf5;
+    background-color: #001f82;
+    caret-color: #fff;
+    font-size: 20px;
+    padding-left: 17px;
+    
+}
+::placeholder{
+    color: #fff;
+}
+.inner-search-container form button{
+    width: 84px;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: #77ddf5;
+    font-family: "Unilever Shilling";
+    font-weight: 100;
+    font-size: 15px;
+    color:#7705bc;
+
+}
+.main-div-one{
+    width: 100%;
+    height: 905px;
+    background-image: url(background.jpg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-div-oneinner{
+    width: 1228.8px;
+    height: 713px;
+    display: flex;
+    
+}
+.oneinner-containerone{
+    width: 596.8px;
+    height: 713.9px;
+    display: flex;
+    flex-direction: column;
+}
+.latest-news{
+    width:100%;
+    height: 44px;
+
+}
+.latest-news h3{
+    color: #fff;
+    font-size: 39px;
+    font-family:'Unilever Shilling';
+    font-weight: bold;
+}
+.author-image{
+    width: 596.8px;
+    height: 335.9px;
+    background-color: #fff;
+    margin-top: 20px;
+    background-image: url(https://www.hul.co.in/content-images/53063640f38a2e184b46edb1f7ef60b7c72c75e4-1920x1080.jpg?rect=0,1,1920,1079&w=900&h=506&fit=crop&auto=format);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-article{
+    width: 91.16px;
+    height: 28px;
+    color: #fff;
+    font-size: 10px;
+    background-color: #3440c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.author-content{
+    width: 596.8px;
+    height: 316px;
+    background-color: #3440c2;
+    padding: 15px;
+}
+.author-content h3{
+    font-size: 25px;
+    color: #ffff;
+    font-family:'Unilever Shilling';
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+.author-content h5{
+    font-size: 13px;
+    color: #ffff;
+    font-family:'Unilever Shilling Medium';
+    margin-bottom: 5px;
+
+}
+.author-content p{
+    font-family: 'Unilever Shilling Medium';
+    font-size: 13px;
+    color: #fff;
+
+}
+.oneinner-conatainertwo{
+    width: 596.8px;
+    height: 651.9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 62px;
+    margin-left: 36px;
+}
+.article-author{
+    width: 100%;
+    height: 151.38px;
+    display: flex;
+}
+.article-author-pictures{
+    width: 266px;
+    height: 100%;
+    background-image: url("https://www.hul.co.in/content-images/ea1f25aee8164402545bfa1ae69b69f56ce630f7-1920x1080.jpg?rect=0,1,1920,1079&w=450&h=253&fit=crop&auto=format");
+    background-size: cover;
+}
+.article-author-picturesone{
+    width: 266px;
+    height: 100%;
+    background-image: url("https://www.hul.co.in/content-images/ba0e8bde098aa99fc24c647fe3cb85affb7243bd-1920x1080.jpg?rect=1,0,1919,1080&w=1400&h=788&fit=crop&auto=format");
+    background-size: cover;
+}
+
+.article-author-picturestwo{
+    width: 266px;
+    height: 100%;
+    background-image: url("https://www.hul.co.in/content-images/662168155a8c48da1674dd59c06f55d8a22b0778-1920x1080.jpg?rect=0,1,1920,1079&w=450&h=253&fit=crop&auto=format");
+    background-size: cover;
+}
+.article-author-picturesthree{
+    width: 266px;
+    height: 100%;
+    background-image: url("https://www.hul.co.in/content-images/76ff1e06826d49d6b886a4c97e7f709b698a275e-1920x1080.jpg?rect=0,1,1920,1079&w=900&h=506&fit=crop&auto=format");
+    background-size: cover;
+}
+.article-author-content{
+    width: 330px;
+    height: 100%;
+    color: #fff;
+    background-color: #001f82;
+    padding: 15px;
+}
+.article-author-content h3{
+    font-size: 20px;
+    font-family:"Unilever Shilling";
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+.article-author-content h4{
+    font-size:12px ;
+    font-family:'Unilever Shilling Medium';
+}
+.main-div-oneinner-two{
+    width: 1228.8px;
+    height: 48px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.oneinner-two-button{
+    width: 182.35px;
+    height: 48px;
+    background-color: #77ddf5;
+    display: flex;
+    align-items: center;
+    
+}
+.oneinner-two-button h3{
+    font-size:14px ;
+    color: #7705bc;
+    padding: 15px;
+    border-right: 1px;
+    border-right-color: #000;
+    border-right-style: solid;
+}
+.oneinner-two-button i{
+    font-size: 22px;
+    padding: 18px;
+}
+.main-div-two{
+    width: 100%;
+    height: 506px;
+    background-color: #001f82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-div-two-inner{
+    width: 1391px;
+    height: 298px;
+    display: flex;
+    margin-top: 70px;
+    padding: 0 25px;
+    
+}
+.two-inner-one{
+    width: 245.76px;
+    height: 100%;
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    text-align: end;
+}
+.two-inner-one img{
+    width: 90px;
+    height: 90px;
+    
+}
+.two-inner-one h3{
+    color: #fff;
+    font-family: "Unilever Shilling";
+    font-size: 23px;
+}
+.two-inner-two{
+    width: 984px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.two-inner-fundiv{
+    height: 149px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.two-fundiv-sub{
+    width: 326.69px;
+    height: 100%;
+    padding: 15px;
+    color: #fff;
+     
+}
+.two-fundiv-sub h2{
+   font-size: 45px;
+   font-family: "Unilever Shilling";
+
+}
+.two-fundiv-sub h3{
+    font-size: 22px;
+    font-family: "Unilever Shilling";
+    
+}
+.two-fundiv-sub h4{
+    font-size: 17px;
+    font-family: 'Unilever Shilling Medium';
+}
+.two-inner-fundiv-one{
+    height: 148px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.two-inner-fundiv-one h2{
+    font-size: 45px;
+    font-family: "Unilever Shilling";
+ 
+ }
+ .two-inner-fundiv-one h3{
+     font-size: 22px;
+     font-family: "Unilever Shilling";
+     
+ }
+ .two-inner-fundiv-one h4{
+     font-size: 17px;
+     font-family: 'Unilever Shilling Medium';
+ }
+ .main-div-two-inner1{
+    width: 1391px;
+    height: 48px;
+    margin: 20px;
+    display: flex;
+    justify-content: center
+ }
+ .two-inner-button{
+    width:344px ;
+    height:48px ;
+    background-color: #77ddf5;
+    display: flex;
+    align-items: center;
+ }
+ .two-inner-button h3{
+    font-size:14px ;
+    color: #7705bc;
+    padding: 15px;
+    border-right: 1px;
+    border-right-color: #000;
+    border-right-style: solid;
+}
+.two-inner-button i{
+    font-size: 22px;
+    padding: 27px;
+}
+.main-div-three{
+    width: 100%;
+    height: 488px;
+    background-color:#9c44c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div-three-inner{
+    width: 1391px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-three-fun1{
+    width: 323px;
+    height: 360px;
+    
+}
+.content-head-fun1-three h4{
+    font-family: "Unilever Shilling";
+    color: #fff;
+    font-size: 33px;
+    line-height: 1.2;
+    margin-bottom:14px;
+}
+.content-head-fun1-three p{
+    font-family: 'Unilever Shilling Medium';
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+.three-fun1-picture{
+    height: 181px;
+    width: 100%;
+}
+.three-fun1-picture img{
+    width: 100%;
+}
+.three-fun1-content h3{
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 5px;
+    font-family: "Unilever Shilling";
+    text-decoration-line: underline;
+}
+.three-fun1-content p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Unilever Shilling Medium';
+    
+}
+.main-div-four{
+    width:100%;
+    height: 504px;
+    background-color: #001f82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div-four-inner{
+    width: 1391px;
+    height: 376.75px;
+    display: flex;
+    padding: 0 176px;
+
+    
+}
+.four-inner-fun1{
+    width: 323px;
+    height: 100%;
+    background-color: #1f36c7;
+    
+}
+.main-div-five{
+    width: 100%;
+    height: 494px;
+    background-color: #001f82;
+    background-image: url(https://www.hul.co.in/assets/asset.ZQRhEb05.webp);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 400px 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-div-five-inner{
+    width:1391px;
+    height: 366px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-five-inner-one{
+    width:442px;
+    height: 100%;
+    background-color:#1f36c7;
+}
+.five-inner-image{
+    width: 100%;
+    height: 248px;
+}
+.five-inner-image img{
+    width: 100%;
+}
+.five-inner-content{
+    width:100%;
+    height: 77px;
+    padding: 10px;
+    color: #fff;
+}
+.five-inner-content h3{ 
+    font-family: "Unilever Shilling";
+    font-size: 24px;
+    text-decoration-line:underline;
+    line-height:28px;
+}
+.five-inner-content p{
+    font-family: 'Unilever Shilling Medium';
+    font-size: 15px;
+}
+.footer-one{
+    width: 100%;
+    height: 56px;
+    background-color: #005eff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-one-inner{
+    width: 445px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.footer-one-inner h3{
+    font-size: 21px;
+    font-family: "Unilever Shilling";
+    color: #fff;
+    margin-right: 45px;
+}
+.footer-one-inner h3 i{
+    font-size: 27px;
+    padding: 7px;
+}
+.footer-one-inner p i{
+    font-size: 23px;
+    color: #fff;
+    padding: 9px;
+}
+.footer-two{
+    width: 100%;
+    height: 252px;
+    background-color: #1f36c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-two-inner{
+    width: 1292px;
+    height: 252px;
+    padding: 33px;
+    display: flex;
+}
+.footer-two-sub-one{
+    width: 598px;
+    height: 188px;
+    color: #fff;
+}
+.footer-two-sub-one h3{
+    font-size: 35px;
+    font-family: "Unilever Shilling";
+    margin-bottom: 10px;
+}
+.footer-two-sub-one p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom:30px;
+}
+.footer-two-sub-one ul{
+    list-style: none;
+    display: flex;
+}
+.footer-two-sub-one ul li{
+    padding: 10px;
+    font-size: 30px;
+}
+.last-button{
+    width: 143px;
+    height: 48px;
+    background-color: #77ddf5;
+    display: flex;
+    align-items: baseline;
+
+}
+.last-button h3{
+    font-size:14px;
+    color:#7705bc ;
+    padding: 13px;
+    border-right: 1px;
+    border-color: #000;
+    border-right-style: solid;
+}
+.last-button i{
+    padding: 13px;
+    font-size: 20px;
+}
+.footer-three{
+    width: 100%;
+    height: 350px;
+    background-color: #001f82;
+    background-image: url(https://www.hul.co.in/assets/asset.vA94atPt.webp);
+    background-position:right bottom;
+    background-size: 625px 350px;
+    background-repeat:no-repeat;
+    padding-top: 96px;
+    padding-left:158px;
+}
+.footer-three-inner{
+    width: 703px;
+    height: 190px;
+    color: #fff;
+}
+.footer-three-inner a{
+    color: #fff;
+    padding: 8px;
+}
+.footer-three-inner h3{
+    font-size:15px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+
+
+   
+    
+    
